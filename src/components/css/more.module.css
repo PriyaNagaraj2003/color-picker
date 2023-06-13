@@ -1,0 +1,176 @@
+@value moreHex1 #01CBC6;
+@value moreHex2 #EA7773;
+@value moreHex3 #BB2CD9;
+@value moreHex4 #8B78E6;
+@value moreHex5 #2B2B52;
+@value moreHex6 #EAF0F1;
+@value moreHex7 #F5BCBA;
+@value moreHex8 #ffeaa7;
+@value moreHex9 #fd79a8;
+@value moreHex10 #e84393;
+@value moreHex11 #353b48;
+@value moreHex12 #4cd137;
+@value moreHex13 #FD9644;
+@value moreHex14 #E74292;
+@value moreHex15 #20bf6b;
+@value moreHex16 #F3B431;
+@value moreHex17 #45aaf2;
+@value moreHex18 #a55eea;
+@value moreHex19 #2d3436;
+@value moreHex20 #6c5ce7;
+@value moreHex21 #0984e3;
+div {
+  margin: 15px;
+  padding: 15px;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+}
+
+div:hover {
+  cursor: pointer;
+}
+.gap {
+  line-height: 140px;
+  padding: 40px;
+  white-space: nowrap;
+}
+.container {
+  display: inline-grid;
+  grid-template-columns: repeat(7, 200px);
+}
+.clr {
+  color: #ffffff;
+}
+
+#more1 {
+  background: moreHex1;
+  position: relative;
+}
+.mybuttonoverlap {
+  position: absolute;
+  background-color: #000000;
+  color: #ffffff;
+  z-index: 2;
+  top: 75px;
+  display: none;
+  left: 36px;
+}
+.btn:hover .mybuttonoverlap {
+  display: block;
+  cursor: pointer;
+}
+
+#more2 {
+  background: moreHex2;
+  position: relative;
+}
+
+#more3 {
+  background: moreHex3;
+  position: relative;
+}
+
+#more4 {
+  background: moreHex4;
+  position: relative;
+}
+
+#more5 {
+  background: moreHex5;
+  position: relative;
+}
+
+#more6 {
+  background: moreHex6;
+  position: relative;
+}
+
+#more7 {
+  background: moreHex7;
+  position: relative;
+}
+
+#more8 {
+  background: moreHex8;
+  position: relative;
+}
+
+#more9 {
+  background: moreHex9;
+  position: relative;
+}
+
+#more10 {
+  background: moreHex10;
+  position: relative;
+}
+
+#more11 {
+  background: moreHex11;
+  position: relative;
+}
+
+#more12 {
+  background: moreHex12;
+  position: relative;
+}
+
+#more13 {
+  background: moreHex13;
+  position: relative;
+}
+
+#more14 {
+  background: moreHex14;
+  position: relative;
+}
+
+#more15 {
+  background: moreHex15;
+  position: relative;
+}
+
+#more16 {
+  background: moreHex16;
+  position: relative;
+}
+#more17 {
+  background: moreHex17;
+  position: relative;
+}
+#more18 {
+  background: moreHex18;
+  position: relative;
+}
+#more19 {
+  background: moreHex19;
+  position: relative;
+}
+#more20 {
+  background: moreHex20;
+  position: relative;
+}
+#more21 {
+  background: moreHex21;
+  position: relative;
+}
+
+@media screen and (max-width: 1300px) {
+  .container {
+    display: inline-grid;
+    grid-template-columns: repeat(6, 200px);
+  }
+}
+@media screen and (max-width: 1490px) {
+  .container {
+    display: inline-grid;
+    grid-template-columns: repeat(6, 200px);
+  }
+}
+@media screen and (max-width: 1270px) {
+  .container {
+    display: inline-grid;
+    grid-template-columns: repeat(5, 200px);
+  }
+}

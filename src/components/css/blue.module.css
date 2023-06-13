@@ -1,0 +1,179 @@
+div {
+  margin: 15px;
+  padding: 15px;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+}
+
+div:hover {
+  cursor: pointer;
+}
+.gap {
+  line-height: 140px;
+  padding: 40px;
+  white-space: nowrap;
+}
+.container {
+  display: inline-grid;
+  grid-template-columns: repeat(7, 200px);
+}
+.clr {
+  color: #ffffff;
+}
+
+.mybuttonoverlap {
+  position: absolute;
+  background-color: #000000;
+  color: #ffffff;
+  z-index: 2;
+  top: 75px;
+  display: none;
+  left: 36px;
+}
+.btn:hover .mybuttonoverlap {
+  display: block;
+  cursor: pointer;
+}
+
+/* https://github.com/css-modules/postcss-modules-values */
+@value blueHex1 #3498db;
+@value blueHex2 #2475b0;
+@value blueHex3 #74b9ff;
+@value blueHex4 #0a79df;
+@value blueHex5 #4834df;
+@value blueHex6 #30336b;
+@value blueHex7 #487eb0;
+@value blueHex8 #192a56;
+@value blueHex9 #6a89cc;
+@value blueHex10 #0a3d62;
+@value blueHex11 #4b77be;
+@value blueHex12 #304ffe;
+@value blueHex13 #4527a0;
+@value blueHex14 #30336b;
+@value blueHex15 #3c40c6;
+@value blueHex16 #25ccf7;
+@value blueHex17 #003171;
+@value blueHex18 #4bcffa;
+@value blueHex19 #0abde3;
+@value blueHex20 #8c7ae6;
+@value blueHex21 #67e6dc;
+
+#blue1 {
+  background: blueHex1;
+  position: relative;
+}
+#blue2 {
+  background: blueHex2;
+  position: relative;
+}
+
+#blue3 {
+  background: blueHex3;
+  position: relative;
+}
+
+#blue4 {
+  background: blueHex4;
+  position: relative;
+}
+
+#blue5 {
+  background: blueHex5;
+  position: relative;
+}
+
+#blue6 {
+  background: blueHex6;
+  position: relative;
+}
+
+#blue7 {
+  background: blueHex7;
+  position: relative;
+}
+
+#blue8 {
+  background: blueHex8;
+  position: relative;
+}
+
+#blue9 {
+  background: blueHex9;
+  position: relative;
+}
+
+#blue10 {
+  background: blueHex10;
+  position: relative;
+}
+
+#blue11 {
+  background: blueHex11;
+  position: relative;
+}
+
+#blue12 {
+  background: blueHex12;
+  position: relative;
+}
+
+#blue13 {
+  background: blueHex13;
+  position: relative;
+}
+
+#blue14 {
+  background: blueHex14;
+  position: relative;
+}
+
+#blue15 {
+  background: blueHex15;
+  position: relative;
+}
+
+#blue16 {
+  background: blueHex16;
+  position: relative;
+}
+#blue17 {
+  background: blueHex17;
+  position: relative;
+}
+#blue18 {
+  background: blueHex18;
+  position: relative;
+}
+#blue19 {
+  background: blueHex19;
+  position: relative;
+}
+#blue20 {
+  background: blueHex20;
+  position: relative;
+}
+#blue21 {
+  background: blueHex21;
+  position: relative;
+}
+
+@media screen and (max-width: 1300px) {
+  .container {
+    display: inline-grid;
+    grid-template-columns: repeat(6, 200px);
+  }
+}
+
+@media screen and (max-width: 1490px) {
+  .container {
+    display: inline-grid;
+    grid-template-columns: repeat(6, 200px);
+  }
+}
+@media screen and (max-width: 1270px) {
+  .container {
+    display: inline-grid;
+    grid-template-columns: repeat(5, 200px);
+  }
+}

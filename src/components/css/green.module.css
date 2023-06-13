@@ -1,0 +1,176 @@
+@value greenHex1 #43be31;
+@value greenHex2 #2E7D32;
+@value greenHex3 #1B5E20;
+@value greenHex4 #BACC58;
+@value greenHex5 #00b894;
+@value greenHex6 #7bed9f;
+@value greenHex7 #2ecc72;
+@value greenHex8 #1BCA9B;
+@value greenHex9 #7CEC9F;
+@value greenHex10 #019031;
+@value greenHex11 #A3CB37;
+@value greenHex12 #75DA8B;
+@value greenHex13 #53E0BC;
+@value greenHex14 #218F76;
+@value greenHex15 #26ae60;
+@value greenHex16 #6ab04c;
+@value greenHex17 #6AB04A;
+@value greenHex18 #badc57;
+@value greenHex19 #43BE31;
+@value greenHex20 #45CE30;
+@value greenHex21 #10A881;
+div {
+  margin: 15px;
+  padding: 15px;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+}
+
+div:hover {
+  cursor: pointer;
+}
+.gap {
+  line-height: 140px;
+  padding: 40px;
+  white-space: nowrap;
+}
+.container {
+  display: inline-grid;
+  grid-template-columns: repeat(7, 200px);
+}
+.clr {
+  color: #ffffff;
+}
+
+#green1 {
+  background: greenHex1;
+  position: relative;
+}
+.mybuttonoverlap {
+  position: absolute;
+  background-color: #000000;
+  color: #ffffff;
+  z-index: 2;
+  top: 75px;
+  display: none;
+  left: 36px;
+}
+.btn:hover .mybuttonoverlap {
+  display: block;
+  cursor: pointer;
+}
+
+#green2 {
+  background: greenHex2;
+  position: relative;
+}
+
+#green3 {
+  background: greenHex3;
+  position: relative;
+}
+
+#green4 {
+  background: greenHex4;
+  position: relative;
+}
+
+#green5 {
+  background: greenHex5;
+  position: relative;
+}
+
+#green6 {
+  background: greenHex6;
+  position: relative;
+}
+
+#green7 {
+  background: greenHex7;
+  position: relative;
+}
+
+#green8 {
+  background: greenHex8;
+  position: relative;
+}
+
+#green9 {
+  background: greenHex9;
+  position: relative;
+}
+
+#green10 {
+  background: greenHex10;
+  position: relative;
+}
+
+#green11 {
+  background: greenHex11;
+  position: relative;
+}
+
+#green12 {
+  background: greenHex12;
+  position: relative;
+}
+
+#green13 {
+  background: greenHex13;
+  position: relative;
+}
+
+#green14 {
+  background: greenHex14;
+  position: relative;
+}
+
+#green15 {
+  background: greenHex15;
+  position: relative;
+}
+
+#green16 {
+  background: greenHex16;
+  position: relative;
+}
+#green17 {
+  background: greenHex17;
+  position: relative;
+}
+#green18 {
+  background: greenHex18;
+  position: relative;
+}
+#green19 {
+  background: greenHex19;
+  position: relative;
+}
+#green20 {
+  background: greenHex20;
+  position: relative;
+}
+#green21 {
+  background: greenHex21;
+  position: relative;
+}
+
+@media screen and (max-width: 1300px) {
+  .container {
+    display: inline-grid;
+    grid-template-columns: repeat(6, 200px);
+  }
+}
+@media screen and (max-width: 1490px) {
+  .container {
+    display: inline-grid;
+    grid-template-columns: repeat(6, 200px);
+  }
+}
+@media screen and (max-width: 1270px) {
+  .container {
+    display: inline-grid;
+    grid-template-columns: repeat(5, 200px);
+  }
+}

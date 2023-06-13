@@ -1,0 +1,176 @@
+@value redHex1 #EB4D4B;
+@value redHex2 #FF1744;
+@value redHex3 #E53935;
+@value redHex4 #D50000;
+@value redHex5 #D32F2F;
+@value redHex6 #F44336;
+@value redHex7 #FF362E;
+@value redHex8 #E84342;
+@value redHex9 #FF3031;
+@value redHex10 #EA425C;
+@value redHex11 #E71C23;
+@value redHex12 #FF3E4D;
+@value redHex13 #EC4849;
+@value redHex14 #BA2F16;
+@value redHex15 #FF4848;
+@value redHex16 #E83350;
+@value redHex17 #AE1438;
+@value redHex18 #E8290B;
+@value redHex19 #E44236;
+@value redHex20 #B83227;
+@value redHex21 #D63031;
+div {
+  margin: 15px;
+  padding: 15px;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+}
+
+div:hover {
+  cursor: pointer;
+}
+.gap {
+  line-height: 140px;
+  padding: 40px;
+  white-space: nowrap;
+}
+.container {
+  display: inline-grid;
+  grid-template-columns: repeat(7, 200px);
+}
+.clr {
+  color: #ffffff;
+}
+
+#red1 {
+  background: redHex1;
+  position: relative;
+}
+.mybuttonoverlap {
+  position: absolute;
+  background-color: #000000;
+  color: #ffffff;
+  z-index: 2;
+  top: 75px;
+  display: none;
+  left: 36px;
+}
+.btn:hover .mybuttonoverlap {
+  display: block;
+  cursor: pointer;
+}
+
+#red2 {
+  background: redHex2;
+  position: relative;
+}
+
+#red3 {
+  background: redHex3;
+  position: relative;
+}
+
+#red4 {
+  background: redHex4;
+  position: relative;
+}
+
+#red5 {
+  background: redHex5;
+  position: relative;
+}
+
+#red6 {
+  background: redHex6;
+  position: relative;
+}
+
+#red7 {
+  background: redHex7;
+  position: relative;
+}
+
+#red8 {
+  background: redHex8;
+  position: relative;
+}
+
+#red9 {
+  background: redHex9;
+  position: relative;
+}
+
+#red10 {
+  background: redHex10;
+  position: relative;
+}
+
+#red11 {
+  background: redHex11;
+  position: relative;
+}
+
+#red12 {
+  background: redHex12;
+  position: relative;
+}
+
+#red13 {
+  background: redHex13;
+  position: relative;
+}
+
+#red14 {
+  background: redHex14;
+  position: relative;
+}
+
+#red15 {
+  background: redHex15;
+  position: relative;
+}
+
+#red16 {
+  background: redHex16;
+  position: relative;
+}
+#red17 {
+  background: redHex17;
+  position: relative;
+}
+#red18 {
+  background: redHex18;
+  position: relative;
+}
+#red19 {
+  background: redHex19;
+  position: relative;
+}
+#red20 {
+  background: redHex20;
+  position: relative;
+}
+#red21 {
+  background: redHex21;
+  position: relative;
+}
+
+@media screen and (max-width: 1300px) {
+  .container {
+    display: inline-grid;
+    grid-template-columns: repeat(6, 200px);
+  }
+}
+@media screen and (max-width: 1490px) {
+  .container {
+    display: inline-grid;
+    grid-template-columns: repeat(6, 200px);
+  }
+}
+@media screen and (max-width: 1270px) {
+  .container {
+    display: inline-grid;
+    grid-template-columns: repeat(5, 200px);
+  }
+}

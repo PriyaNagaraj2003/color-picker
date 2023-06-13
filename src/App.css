@@ -1,0 +1,33 @@
+.div1{
+  margin-top: -145px;
+}
+.div2{
+ margin-top: 500px;
+}
+.dv{
+  margin-top:9px;
+ 
+}
+
+@media all and (max-width: 920px) {
+  .dv {
+      margin-bottom: 22rem;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .dv {
+      margin-bottom: 40rem;
+  }
+}
+
+@media screen and (max-width:1490px){
+  .div2{
+      margin-top:700px;
+  }
+}
+@media screen and (max-width:1270px){
+  .div2{
+      margin-top:850px;
+  }
+}

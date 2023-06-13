@@ -1,0 +1,177 @@
+@value greyHex1 #212121;
+@value greyHex2 #47535E;
+@value greyHex3 #777E8B;
+@value greyHex4 #DAE0E2;
+@value greyHex5 #586776;
+@value greyHex6 #758AA2;
+@value greyHex7 #4C4B4B;
+@value greyHex8 #616C6F;
+@value greyHex9 #333943;
+@value greyHex10 #8395A7;
+@value greyHex11 #99AAAB;
+@value greyHex12 #333940;
+@value greyHex13 #A4B0BD;
+@value greyHex14 #2C3335;
+@value greyHex15 #333949;
+@value greyHex16 #535C68;
+@value greyHex17 #333945;
+@value greyHex18 #333946;
+@value greyHex19 #535C68;
+@value greyHex20 #2F363F;
+@value greyHex21 #333666;
+div {
+  margin: 15px;
+  padding: 15px;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+}
+
+div:hover {
+  cursor: pointer;
+}
+.gap {
+  line-height: 140px;
+  padding: 40px;
+  white-space: nowrap;
+}
+.container {
+  display: inline-grid;
+  grid-template-columns: repeat(7, 200px);
+}
+.clr {
+  color: #ffffff;
+}
+
+#grey1 {
+  background: greyHex1;
+  position: relative;
+}
+.mybuttonoverlap {
+  position: absolute;
+  background-color: #000000;
+  color: #ffffff;
+  z-index: 2;
+  top: 75px;
+  display: none;
+  left: 36px;
+}
+.btn:hover .mybuttonoverlap {
+  display: block;
+  cursor: pointer;
+}
+
+#grey2 {
+  background: greyHex2;
+  position: relative;
+}
+
+#grey3 {
+  background: greyHex3;
+  position: relative;
+}
+
+#grey4 {
+  background: greyHex4;
+  position: relative;
+}
+
+#grey5 {
+  background: greyHex5;
+  position: relative;
+}
+
+#grey6 {
+  background: greyHex6;
+  position: relative;
+}
+
+#grey7 {
+  background: greyHex7;
+  position: relative;
+}
+
+#grey8 {
+  background: greyHex8;
+  position: relative;
+}
+
+#grey9 {
+  background: greyHex9;
+  position: relative;
+}
+
+#grey10 {
+  background: greyHex10;
+  position: relative;
+}
+
+#grey11 {
+  background: greyHex11;
+  position: relative;
+}
+
+#grey12 {
+  background: greyHex12;
+  position: relative;
+}
+
+#grey13 {
+  background: greyHex13;
+  position: relative;
+}
+
+#grey14 {
+  background: greyHex14;
+  position: relative;
+}
+
+#grey15 {
+  background: greyHex15;
+  position: relative;
+}
+
+#grey16 {
+  background: greyHex16;
+  position: relative;
+}
+#grey17 {
+  background: greyHex17;
+  position: relative;
+}
+#grey18 {
+  background: greyHex18;
+  position: relative;
+}
+#grey19 {
+  background: greyHex19;
+  position: relative;
+}
+#grey20 {
+  background: greyHex20;
+  position: relative;
+}
+#grey21 {
+  background: greyHex21;
+  position: relative;
+}
+
+@media screen and (max-width: 1300px) {
+  .container {
+    display: inline-grid;
+    grid-template-columns: repeat(6, 200px);
+  }
+}
+@media screen and (max-width: 1490px) {
+  .container {
+    display: inline-grid;
+    grid-template-columns: repeat(6, 200px);
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  .container {
+    display: inline-grid;
+    grid-template-columns: repeat(5, 200px);
+  }
+}
